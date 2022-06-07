@@ -107,7 +107,7 @@ public class PlayerController : MonoBehaviour
     // called when the cube hits the floor
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag("Ground") || col.gameObject.CompareTag("Obstacles"))
+        if (onGroundState == false && (col.gameObject.CompareTag("Ground") || col.gameObject.CompareTag("Obstacles")))
         {
             onGroundState = true; // back on ground
             marioAnimator.SetBool("onGround", onGroundState);

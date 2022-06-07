@@ -9,6 +9,7 @@ public class QuestionBoxController : MonoBehaviour
     public  GameObject consummablePrefab; // the spawned mushroom prefab
     public  SpriteRenderer spriteRenderer;
     public  Sprite usedQuestionBox; // the sprite that indicates empty box instead of a question mark
+    public  Material litMaterial;
     private bool hit =  false;
 
     // Start is called before the first frame update
@@ -28,6 +29,7 @@ public class QuestionBoxController : MonoBehaviour
 
         //continues here when the ObjectMovedAndStopped() returns true
         spriteRenderer.sprite  =  usedQuestionBox; // change sprite to be "used-box" sprite
+        spriteRenderer.material = litMaterial; // change material to lit sprite
         rigidBody.bodyType  =  RigidbodyType2D.Static; // make the box unaffected by Physics
 
         //reset box position

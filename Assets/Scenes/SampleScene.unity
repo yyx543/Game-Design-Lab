@@ -249,6 +249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakableBrick (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1026542181404369097, guid: 79adbe3a694dd224396af54620c57ba6, type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 1026542181404369101, guid: 79adbe3a694dd224396af54620c57ba6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -385,6 +389,10 @@ PrefabInstance:
     - target: {fileID: 1026542181404369097, guid: 79adbe3a694dd224396af54620c57ba6, type: 3}
       propertyPath: m_Name
       value: BreakableBrick (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026542181404369097, guid: 79adbe3a694dd224396af54620c57ba6, type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 1026542181404369101, guid: 79adbe3a694dd224396af54620c57ba6, type: 3}
       propertyPath: m_RootOrder
@@ -6950,6 +6958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakableBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 1026542181404369097, guid: 79adbe3a694dd224396af54620c57ba6, type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 1026542181404369101, guid: 79adbe3a694dd224396af54620c57ba6, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -7063,6 +7075,10 @@ PrefabInstance:
     - target: {fileID: 1026542181404369097, guid: 79adbe3a694dd224396af54620c57ba6, type: 3}
       propertyPath: m_Name
       value: BreakableBrick (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026542181404369097, guid: 79adbe3a694dd224396af54620c57ba6, type: 3}
+      propertyPath: m_TagString
+      value: Obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 1026542181404369101, guid: 79adbe3a694dd224396af54620c57ba6, type: 3}
       propertyPath: m_RootOrder

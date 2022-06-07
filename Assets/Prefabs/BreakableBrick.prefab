@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1026542180540275406}
   - component: {fileID: 1026542180540275407}
   - component: {fileID: 8184307669439382731}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EdgeDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,9 +79,9 @@ GameObject:
   - component: {fileID: 1026542181404369101}
   - component: {fileID: 1026542181404369100}
   - component: {fileID: 1026542181404369103}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BreakableBrick
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -164,7 +164,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

@@ -248,6 +248,7 @@ MonoBehaviour:
   consummablePrefab: {fileID: 5633784673429343012, guid: e646cedb53891d5418bd0feb1c06f6e8, type: 3}
   spriteRenderer: {fileID: 8515463189338847578}
   usedQuestionBox: {fileID: 21300054, guid: 855dc7396df3c4e49ac4d21234eac5e1, type: 3}
+  litMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
 --- !u!1 &8515463189587071643
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,7 +273,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8515463189587071643}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5, y: 2.5, z: -0.14270954}
+  m_LocalPosition: {x: -3.5, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

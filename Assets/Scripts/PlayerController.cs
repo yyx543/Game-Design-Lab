@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public Transform startLimit; //GameObject that indicates start of map
     public Transform endLimit; // GameObject that indicates end of map
     public Text scoreText;
+    public ParticleSystem dustCloud;
 
     private Rigidbody2D marioBody;
     private SpriteRenderer marioSprite;
@@ -110,6 +111,7 @@ public class PlayerController : MonoBehaviour
         {
             onGroundState = true; // back on ground
             marioAnimator.SetBool("onGround", onGroundState);
+            dustCloud.Play();
             // countScoreState = false; // reset score state
             scoreText.text = "Score: " + score.ToString();
         }

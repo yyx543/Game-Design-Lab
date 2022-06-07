@@ -35,7 +35,7 @@ public class ParallaxScroller : MonoBehaviour
                 offset[i] =  offset[i] +  newOffset  *  speedMultiplier[i];
                 layers[i].material.mainTextureOffset  =  new  Vector2(offset[i], 0);
             }
-        }
+        }   
         //update previous pos
         previousXPositionMario  =  mario.transform.position.x;
         previousXPositionCamera  =  mainCamera.transform.position.x;

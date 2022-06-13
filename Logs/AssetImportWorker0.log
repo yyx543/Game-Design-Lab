@@ -1,23 +1,30 @@
+Unity Editor version:    2021.3.2f1 (d6360bedb9a0)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16310 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/User/Game-Design-Lab
+/Users/rebby/Documents/GitHub/Game-Design-Lab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51453
-Successfully changed project path to: C:/Users/User/Game-Design-Lab
-C:/Users/User/Game-Design-Lab
+49613
+Successfully changed project path to: /Users/rebby/Documents/GitHub/Game-Design-Lab
+/Users/rebby/Documents/GitHub/Game-Design-Lab
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,551 +54,586 @@ C:/Users/User/Game-Design-Lab
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 94.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 242.26 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/User/Game-Design-Lab/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rebby/Documents/GitHub/Game-Design-Lab/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
-    Vendor:   NVIDIA
-    VRAM:     12143 MB
-    Driver:   30.0.14.7212
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56481
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005132 seconds.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 102.39 ms, found 4 plugins.
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001134 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 103.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.531 seconds
+- Completed reload, in  0.436 seconds
 Domain Reload Profiling:
-	ReloadAssembly (532ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (437ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (392ms)
-			LoadAssemblies (59ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (321ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (73ms)
+			SetupTypeCache (66ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (252ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (208ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
+				RefreshPlugins (104ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005717 seconds.
+Registered in 0.000167 seconds.
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Runtime/Unity.2D.PixelPerfect.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Shaders/Unity.RenderPipelines.Universal.Shaders.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdPlugin.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Telemetry/Unity.Services.Core.Telemetry.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Networking/Unity.Services.Core.Networking.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.State/Unity.VisualScripting.State.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.searcher/Editor/Unity.Searcher.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Editor/Unity.2D.IK.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Editor/Unity.2D.PixelPerfect.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.CodeGen.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Editor/Unity.2D.Path.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/SettingsProvider/Unity.VisualScripting.SettingsProvider.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/Editor/Utilities/Unity.ShaderGraph.Utilities.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/ShaderLibrary/Unity.RenderPipelines.Core.ShaderLibrary.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core.Internal/Unity.Services.Core.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Configuration/Unity.Services.Core.Configuration.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Runtime/Unity.2D.IK.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/Editor/Unity.ShaderGraph.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Tests/Editor/Unity.2D.Common.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Registration/Unity.Services.Core.Registration.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Internal/Unity.Services.Core.Environments.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/ShaderLibrary/Unity.RenderPipelines.Universal.ShaderLibrary.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Threading/Unity.Services.Core.Threading.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Tests/Editor/Unity.2D.SpriteShape.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Tests/Runtime/Unity.Burst.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/Unity.2D.Common.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Tests/EditorTests/Unity.2D.Psdimporter.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/Tests/Editor/Unity.ShaderGraph.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.searcher/Tests/Editor/Unity.Searcher.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Unity.VisualScripting.Flow.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Tests/Editor/Unity.RenderPipelines.Universal.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Runtime/Unity.RenderPipelines.Universal.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Editor/Converter/PPv2/PPv2ToURPConvertersDefinition.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Unity.VisualScripting.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Editor/Unity.Burst.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Tests/Editor/Unity.RenderPipelines.Core.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Tests/Runtime/Unity.RenderPipelines.Core.Runtime.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Editor/Unity.2D.Sprite.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/Unity.2D.Psdimporter.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Runtime/Unity.RenderPipelines.Core.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Unity.VisualScripting.Flow.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core/Unity.Services.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Unity.VisualScripting.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Analytics/Unity.Services.Core.Analytics.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Runtime/Unity.Burst.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Editor/Unity.RenderPipelines.Universal.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Runtime/Unity.2D.PixelPerfect.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Unity.Services.Core.Environments.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Unity.2D.Animation.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Editor/Unity.2D.PixelPerfect.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Scheduler/Unity.Services.Core.Scheduler.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Tests/Editor/Unity.Burst.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/ShaderGraphLibrary/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/Unity.2D.Common.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Editor/Unity.2D.SpriteShape.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Tests/Unity.2D.Path.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Tests/Runtime/Unity.RenderPipelines.Universal.Runtime.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Editor/Unity.RenderPipelines.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Runtime/Unity.2D.SpriteShape.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Unity.VisualScripting.State.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Device/Unity.Services.Core.Device.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Tests/Editor/SeparateAssembly/SeparateAssembly.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Runtime/Unity.2D.PixelPerfect.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Shaders/Unity.RenderPipelines.Universal.Shaders.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdPlugin.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Telemetry/Unity.Services.Core.Telemetry.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Networking/Unity.Services.Core.Networking.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.State/Unity.VisualScripting.State.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.searcher/Editor/Unity.Searcher.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Editor/Unity.2D.IK.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Editor/Unity.2D.PixelPerfect.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.CodeGen.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Editor/Unity.2D.Path.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/SettingsProvider/Unity.VisualScripting.SettingsProvider.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/Editor/Utilities/Unity.ShaderGraph.Utilities.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/ShaderLibrary/Unity.RenderPipelines.Core.ShaderLibrary.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core.Internal/Unity.Services.Core.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Configuration/Unity.Services.Core.Configuration.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Runtime/Unity.2D.IK.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/Editor/Unity.ShaderGraph.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Tests/Editor/Unity.2D.Common.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Registration/Unity.Services.Core.Registration.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Internal/Unity.Services.Core.Environments.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/ShaderLibrary/Unity.RenderPipelines.Universal.ShaderLibrary.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Threading/Unity.Services.Core.Threading.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Tests/Editor/Unity.2D.SpriteShape.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Tests/Runtime/Unity.Burst.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/Unity.2D.Common.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Tests/EditorTests/Unity.2D.Psdimporter.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/Tests/Editor/Unity.ShaderGraph.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.searcher/Tests/Editor/Unity.Searcher.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Unity.VisualScripting.Flow.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Tests/Editor/Unity.RenderPipelines.Universal.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Runtime/Unity.RenderPipelines.Universal.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Editor/Converter/PPv2/PPv2ToURPConvertersDefinition.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Unity.VisualScripting.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Editor/Unity.Burst.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Tests/Editor/Unity.RenderPipelines.Core.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Tests/Runtime/Unity.RenderPipelines.Core.Runtime.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Editor/Unity.2D.Sprite.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/Unity.2D.Psdimporter.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Runtime/Unity.RenderPipelines.Core.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Unity.VisualScripting.Flow.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core/Unity.Services.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Unity.VisualScripting.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Analytics/Unity.Services.Core.Analytics.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Runtime/Unity.Burst.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Editor/Unity.RenderPipelines.Universal.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Runtime/Unity.2D.PixelPerfect.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Unity.Services.Core.Environments.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Unity.2D.Animation.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Editor/Unity.2D.PixelPerfect.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Scheduler/Unity.Services.Core.Scheduler.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Tests/Editor/Unity.Burst.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/ShaderGraphLibrary/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/Unity.2D.Common.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Editor/Unity.2D.SpriteShape.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Tests/Unity.2D.Path.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Tests/Runtime/Unity.RenderPipelines.Universal.Runtime.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Editor/Unity.RenderPipelines.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Runtime/Unity.2D.SpriteShape.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Unity.VisualScripting.State.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Device/Unity.Services.Core.Device.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Tests/Editor/SeparateAssembly/SeparateAssembly.asmdef)
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 92.23 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Runtime/Unity.2D.PixelPerfect.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Shaders/Unity.RenderPipelines.Universal.Shaders.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdPlugin.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Telemetry/Unity.Services.Core.Telemetry.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Networking/Unity.Services.Core.Networking.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.State/Unity.VisualScripting.State.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.searcher/Editor/Unity.Searcher.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Editor/Unity.2D.IK.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Editor/Unity.2D.PixelPerfect.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.CodeGen.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Editor/Unity.2D.Path.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/SettingsProvider/Unity.VisualScripting.SettingsProvider.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/Editor/Utilities/Unity.ShaderGraph.Utilities.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/ShaderLibrary/Unity.RenderPipelines.Core.ShaderLibrary.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core.Internal/Unity.Services.Core.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Configuration/Unity.Services.Core.Configuration.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Runtime/Unity.2D.IK.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/Editor/Unity.ShaderGraph.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Tests/Editor/Unity.2D.Common.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Registration/Unity.Services.Core.Registration.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Internal/Unity.Services.Core.Environments.Internal.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/ShaderLibrary/Unity.RenderPipelines.Universal.ShaderLibrary.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Threading/Unity.Services.Core.Threading.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Tests/Editor/Unity.2D.SpriteShape.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Tests/Runtime/Unity.Burst.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/Unity.2D.Common.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Tests/EditorTests/Unity.2D.Psdimporter.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/Tests/Editor/Unity.ShaderGraph.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.searcher/Tests/Editor/Unity.Searcher.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Unity.VisualScripting.Flow.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Tests/Editor/Unity.RenderPipelines.Universal.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Runtime/Unity.RenderPipelines.Universal.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Editor/Converter/PPv2/PPv2ToURPConvertersDefinition.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Unity.VisualScripting.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Editor/Unity.Burst.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Tests/Editor/Unity.RenderPipelines.Core.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Tests/Runtime/Unity.RenderPipelines.Core.Runtime.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Editor/Unity.2D.Sprite.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/Unity.2D.Psdimporter.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Runtime/Unity.RenderPipelines.Core.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Unity.VisualScripting.Flow.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Core/Unity.Services.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Unity.VisualScripting.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Analytics/Unity.Services.Core.Analytics.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Runtime/Unity.Burst.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Editor/Unity.RenderPipelines.Universal.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Runtime/Unity.2D.PixelPerfect.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Environments/Unity.Services.Core.Environments.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Unity.2D.Animation.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Editor/Unity.2D.PixelPerfect.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Scheduler/Unity.Services.Core.Scheduler.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Tests/Editor/Unity.Burst.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.shadergraph/ShaderGraphLibrary/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/Unity.2D.Common.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Editor/Unity.2D.SpriteShape.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Tests/Unity.2D.Path.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.universal/Tests/Runtime/Unity.RenderPipelines.Universal.Runtime.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.render-pipelines.core/Editor/Unity.RenderPipelines.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Runtime/Unity.2D.SpriteShape.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Unity.VisualScripting.State.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Runtime/Device/Unity.Services.Core.Device.asmdef)
+Required property 'name' not set (Packages/com.unity.burst/Tests/Editor/SeparateAssembly/SeparateAssembly.asmdef)
 Mono: successfully reloaded assembly
-- Completed reload, in  1.008 seconds
+- Completed reload, in  0.869 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1008ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (869ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (808ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (771ms)
+			LoadAssemblies (25ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (453ms)
+			SetupTypeCache (67ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (378ms)
+			SetupLoadedEditorAssemblies (276ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(2) subTarget(0) extendedPlatform(0)
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5531 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (0.8 MB). Loaded Objects now: 6003.
-Memory consumption went from 236.5 MB to 235.7 MB.
-Total: 3.328100 ms (FindLiveObjects: 0.337700 ms CreateObjectMapping: 0.150100 ms MarkObjects: 2.528900 ms  DeleteObjects: 0.310700 ms)
+Unloading 5479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.8 MB). Loaded Objects now: 5941.
+Memory consumption went from 293.4 MB to 292.6 MB.
+Total: 2.470333 ms (FindLiveObjects: 0.487042 ms CreateObjectMapping: 0.064208 ms MarkObjects: 1.645625 ms  DeleteObjects: 0.272583 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 00a0da0d000000000000000000000000
+  custom:postprocessor/textureSprite: 3a72ab716371bfb79a2f67d30e7b4156 -> 1909f56bfc062723c751e8b465ee728b
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1175553.449048 seconds.
-  path: Assets/Sprite/cartoonfiretexture.png
-  artifactKey: Guid(82f82e464853f024ca7cf6077dfc010c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/cartoonfiretexture.png using Guid(82f82e464853f024ca7cf6077dfc010c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7269cd7d57757d8e70af0cf7ae34c21e') in 0.303134 seconds 
+  Time since last request: 1083.890350 seconds.
+  path: 
+  artifactKey: Guid(52b031d58d0244e2bbfd38093b93c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(52b031d58d0244e2bbfd38093b93c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000027 seconds  code(3) message(Unknown asset with GUID '52b031d58d0244e2bbfd38093b93c2d0')
+  ERROR: Unknown asset with GUID '52b031d58d0244e2bbfd38093b93c2d0'
 ========================================================================
 Received Import Request.
-  Time since last request: 108.196998 seconds.
-  path: Assets/Scripts/QuestionBoxController.cs
-  artifactKey: Guid(53e23aeaffa9c5d41ac66f0e3133cbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/QuestionBoxController.cs using Guid(53e23aeaffa9c5d41ac66f0e3133cbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a41f2d00d8d55065b6cde4d85acc9d') in 0.006949 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005120 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.808 seconds
-Domain Reload Profiling:
-	ReloadAssembly (809ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (628ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (308ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.60 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5391 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (0.8 MB). Loaded Objects now: 6012.
-Memory consumption went from 230.8 MB to 229.9 MB.
-Total: 3.355200 ms (FindLiveObjects: 0.327800 ms CreateObjectMapping: 0.148700 ms MarkObjects: 2.543400 ms  DeleteObjects: 0.334600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 13.536966 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000043 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
 ========================================================================
 Received Import Request.
-  Time since last request: 218.045692 seconds.
-  path: Assets/Scripts/Debris.cs
-  artifactKey: Guid(98249aa8011665047ae1f247e0bd8924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Debris.cs using Guid(98249aa8011665047ae1f247e0bd8924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b997c11ba5e5f9326c1b25e76b298658') in 0.013708 seconds 
+  Time since last request: 32.760474 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000041 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
 ========================================================================
 Received Import Request.
-  Time since last request: 31.639874 seconds.
-  path: Assets/Prefabs/HittableSimple.prefab
-  artifactKey: Guid(725803ee26d96f34f8049415e7edaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HittableSimple.prefab using Guid(725803ee26d96f34f8049415e7edaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab29fd2a5dc172c2d27aeead6b4c5787') in 0.132996 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006340 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.992 seconds
-Domain Reload Profiling:
-	ReloadAssembly (992ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (807ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (416ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5399 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (0.8 MB). Loaded Objects now: 6062.
-Memory consumption went from 233.9 MB to 233.0 MB.
-Total: 4.620600 ms (FindLiveObjects: 0.470000 ms CreateObjectMapping: 0.196200 ms MarkObjects: 3.525600 ms  DeleteObjects: 0.427900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 5.911677 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000055 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
 ========================================================================
 Received Import Request.
-  Time since last request: 159.891186 seconds.
-  path: Assets/Prefabs/HittableSimple.prefab
-  artifactKey: Guid(725803ee26d96f34f8049415e7edaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HittableSimple.prefab using Guid(725803ee26d96f34f8049415e7edaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf67f57867067eaebd554638ae0af91') in 0.131951 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005061 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.993 seconds
-Domain Reload Profiling:
-	ReloadAssembly (994ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (794ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (352ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (76ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5399 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (0.8 MB). Loaded Objects now: 6106.
-Memory consumption went from 234.1 MB to 233.2 MB.
-Total: 3.379400 ms (FindLiveObjects: 0.380200 ms CreateObjectMapping: 0.130100 ms MarkObjects: 2.542200 ms  DeleteObjects: 0.326100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 3.055875 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000035 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
 ========================================================================
 Received Import Request.
-  Time since last request: 21.331721 seconds.
-  path: Assets/Prefabs/HittableSimple.prefab
-  artifactKey: Guid(725803ee26d96f34f8049415e7edaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HittableSimple.prefab using Guid(725803ee26d96f34f8049415e7edaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4050d09733ce24874cddc02fb0d3fe') in 0.128889 seconds 
+  Time since last request: 6.537925 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000055 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004928 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
-Domain Reload Profiling:
-	ReloadAssembly (933ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (748ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (211ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (359ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.87 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5399 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (0.8 MB). Loaded Objects now: 6150.
-Memory consumption went from 234.1 MB to 233.3 MB.
-Total: 3.798300 ms (FindLiveObjects: 0.433100 ms CreateObjectMapping: 0.149900 ms MarkObjects: 2.839900 ms  DeleteObjects: 0.374800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 2.493878 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000060 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005648 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1012ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (776ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (242ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (351ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.90 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5399 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (0.8 MB). Loaded Objects now: 6153.
-Memory consumption went from 234.0 MB to 233.2 MB.
-Total: 3.602300 ms (FindLiveObjects: 0.392200 ms CreateObjectMapping: 0.143500 ms MarkObjects: 2.548700 ms  DeleteObjects: 0.516500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 7.479647 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000053 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006327 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.826 seconds
-Domain Reload Profiling:
-	ReloadAssembly (826ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (647ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (312ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (158ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5399 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (0.8 MB). Loaded Objects now: 6156.
-Memory consumption went from 234.0 MB to 233.2 MB.
-Total: 3.417100 ms (FindLiveObjects: 0.411900 ms CreateObjectMapping: 0.144300 ms MarkObjects: 2.502500 ms  DeleteObjects: 0.357400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 1.546013 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000048 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006249 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game-Design-Lab\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.942 seconds
-Domain Reload Profiling:
-	ReloadAssembly (943ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (742ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (194ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (346ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5399 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (0.8 MB). Loaded Objects now: 6159.
-Memory consumption went from 234.1 MB to 233.2 MB.
-Total: 4.012800 ms (FindLiveObjects: 0.398800 ms CreateObjectMapping: 0.145600 ms MarkObjects: 3.081400 ms  DeleteObjects: 0.386100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 3.583962 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000034 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
+========================================================================
+Received Import Request.
+  Time since last request: 2.630255 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000046 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
+========================================================================
+Received Import Request.
+  Time since last request: 5.483423 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000053 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
+========================================================================
+Received Import Request.
+  Time since last request: 1.746714 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000039 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
+========================================================================
+Received Import Request.
+  Time since last request: 5.382023 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000041 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
+========================================================================
+Received Import Request.
+  Time since last request: 6.898842 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
+========================================================================
+Received Import Request.
+  Time since last request: 3.759548 seconds.
+  path: 
+  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000054 seconds  code(3) message(Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824')
+  ERROR: Unknown asset with GUID 'b7cae8aac468c4d8ca583b74d52d7824'
+========================================================================
+Received Import Request.
+  Time since last request: 526.468205 seconds.
+  path: Assets/Audio/Beep.wav
+  artifactKey: Guid(a0b36352006764927b0bd2d81daa15ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Beep.wav using Guid(a0b36352006764927b0bd2d81daa15ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 1.229998 seconds  code(4) message(Build asset version error: assets/audio/beep.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z')
+  ERROR: Build asset version error: assets/audio/beep.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Audio/smb_breakblock.wav
+  artifactKey: Guid(490f1cae6c7ad487db9edf3915018d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/smb_breakblock.wav using Guid(490f1cae6c7ad487db9edf3915018d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005710 seconds  code(4) message(Build asset version error: assets/audio/smb_breakblock.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z')
+  ERROR: Build asset version error: assets/audio/smb_breakblock.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Audio/smb_bump.wav
+  artifactKey: Guid(8c4927f1ead9e4d41ae5752f40e407d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/smb_bump.wav using Guid(8c4927f1ead9e4d41ae5752f40e407d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004097 seconds  code(4) message(Build asset version error: assets/audio/smb_bump.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z')
+  ERROR: Build asset version error: assets/audio/smb_bump.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Audio/smb_flagpole.wav
+  artifactKey: Guid(0a4eda3df836a4e309562c4c66f6cef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/smb_flagpole.wav using Guid(0a4eda3df836a4e309562c4c66f6cef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004326 seconds  code(4) message(Build asset version error: assets/audio/smb_flagpole.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z')
+  ERROR: Build asset version error: assets/audio/smb_flagpole.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Audio/smb_mariodie.wav
+  artifactKey: Guid(25ac371a7acb84aef8a675a3d9db1c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/smb_mariodie.wav using Guid(25ac371a7acb84aef8a675a3d9db1c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004621 seconds  code(4) message(Build asset version error: assets/audio/smb_mariodie.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z')
+  ERROR: Build asset version error: assets/audio/smb_mariodie.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Audio/smb_jump-super.wav
+  artifactKey: Guid(e605f2bb7819d4d0bb11e4ef5d679fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/smb_jump-super.wav using Guid(e605f2bb7819d4d0bb11e4ef5d679fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004353 seconds  code(4) message(Build asset version error: assets/audio/smb_jump-super.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z')
+  ERROR: Build asset version error: assets/audio/smb_jump-super.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Audio/smb_coin.wav
+  artifactKey: Guid(e3a428cbcca3a4eea80f28efad079778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/smb_coin.wav using Guid(e3a428cbcca3a4eea80f28efad079778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004104 seconds  code(4) message(Build asset version error: assets/audio/smb_coin.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z')
+  ERROR: Build asset version error: assets/audio/smb_coin.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Audio/smb_pipe.wav
+  artifactKey: Guid(b1d4d6e673cfd43fda39cf2ceccc296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/smb_pipe.wav using Guid(b1d4d6e673cfd43fda39cf2ceccc296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010294 seconds  code(4) message(Build asset version error: assets/audio/smb_pipe.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z')
+  ERROR: Build asset version error: assets/audio/smb_pipe.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Audio/smb_stomp.wav
+  artifactKey: Guid(2831e105608904d11a50e3d9d88b15d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/smb_stomp.wav using Guid(2831e105608904d11a50e3d9d88b15d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004170 seconds  code(4) message(Build asset version error: assets/audio/smb_stomp.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z')
+  ERROR: Build asset version error: assets/audio/smb_stomp.wav in SourceAssetDB has modification time of '2017-11-13T11:49:14Z' while content on disk has modification time of '2022-06-07T08:35:30Z'
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public Transform endLimit; // GameObject that indicates end of map
     public Text scoreText;
     public ParticleSystem dustCloud;
+    public Transform coinLocation;
 
     private Rigidbody2D marioBody;
     private SpriteRenderer marioSprite;
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
 
     private Animator marioAnimator;
     private AudioSource marioAudio;
+    public AudioSource coinAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -115,6 +117,12 @@ public class PlayerController : MonoBehaviour
             // countScoreState = false; // reset score state
             scoreText.text = "Score: " + score.ToString();
         }
+        //if mario hits coin, it disappears
+        if (col.gameObject.CompareTag("Coin")) 
+        {
+            coinAudio.Play();
+            Destroy(coinLocation);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -124,6 +132,12 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Collided with Gomba!");
             marioBody.velocity = Vector2.zero;
             SceneManager.LoadScene("SampleScene");
+        }
+
+        if (other.gameObject.CompareTag("Coin"))
+        {
+            Debug.Log("Hit Coin");
+
         }
     }
 

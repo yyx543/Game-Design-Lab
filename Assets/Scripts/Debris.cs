@@ -17,13 +17,6 @@ public class Debris : MonoBehaviour
         StartCoroutine("ScaleOut");
     }
 
-    // void Update()
-    // {
-    //     currentPosition = new Vector2(this.transform.position.x, this.transform.position.y);
-    //     Vector2 nextPosition = currentPosition;
-    //     rigidBody.MovePosition(nextPosition);
-    // }
-
     IEnumerator  ScaleOut(){
 
         Vector2 direction =  new  Vector2(Random.Range(-1.0f, 1.0f), 1);

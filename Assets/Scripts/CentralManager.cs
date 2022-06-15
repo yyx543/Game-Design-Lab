@@ -27,6 +27,10 @@ public  class CentralManager : MonoBehaviour
 		gameManager.increaseScore();
 	}
 
+	public  void  coinIncreaseScore(){
+		gameManager.coinIncreaseScore();
+	}
+
     public  void  damagePlayer(){
 	    gameManager.damagePlayer();
     }

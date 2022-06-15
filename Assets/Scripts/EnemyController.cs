@@ -96,7 +96,7 @@ public class EnemyController : MonoBehaviour
 		yield  break;
 	}
 
-        // animation when player is dead
+    // animation when player is dead
     void  EnemyRejoice(){
         Debug.Log("Enemy killed Mario");
         moveRight = 0;

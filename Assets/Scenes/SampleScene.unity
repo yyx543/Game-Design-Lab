@@ -1768,11 +1768,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemsToPool:
-  - amount: 3
+  - amount: 5
     prefab: {fileID: 6683235658754376389, guid: 7224682fc198c40459c16ea83503cae6, type: 3}
     expandPool: 0
     type: 1
-  - amount: 3
+  - amount: 5
     prefab: {fileID: 6683235658754376389, guid: 4a0802ea25df59342bbc2b9d0504b8c5, type: 3}
     expandPool: 0
     type: 0
@@ -7566,11 +7566,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8515463189587071620, guid: 725803ee26d96f34f8049415e7edaad4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8
+      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: 8515463189587071620, guid: 725803ee26d96f34f8049415e7edaad4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8515463189587071620, guid: 725803ee26d96f34f8049415e7edaad4, type: 3}
       propertyPath: m_LocalPosition.z

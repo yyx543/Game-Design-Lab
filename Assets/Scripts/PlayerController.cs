@@ -156,12 +156,10 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator dieAnimation(){
 		for (int i =  0; i  < 2; i  ++){
-
 			this.transform.position  =  new  Vector3(this.transform.position.x, this.transform.position.y + 1.5f, this.transform.position.z);
 			yield  return  null;
 		}
 		Debug.Log("Enemy returned to pool");
-        
 		yield  break;
 	}
 }

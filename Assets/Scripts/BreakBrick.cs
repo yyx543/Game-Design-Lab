@@ -12,6 +12,8 @@ public class BreakBrick : MonoBehaviour
 
     public AudioSource breakAudio;
 
+    public  GameConstants gameConstants;
+
     // Start is called before the first frame update
     void Start()
     {

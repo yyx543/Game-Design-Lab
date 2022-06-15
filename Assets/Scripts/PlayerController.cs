@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     private bool faceRightState = true;
 
     private int score = 0;
-    // private bool countScoreState = false;
+    private bool countScoreState = false;
 
     private Animator marioAnimator;
     private AudioSource marioAudio;
@@ -63,15 +63,15 @@ public class PlayerController : MonoBehaviour
         }
 
         
-        // if (!onGroundState && countScoreState)
-        // {
-        //     if (Mathf.Abs(transform.position.x - enemyLocation.position.x) < 0.5f)
-        //     {
-        //         countScoreState = false;
-        //         score++;
-        //         Debug.Log(score);
-        //     }
-        // }
+        if (!onGroundState && countScoreState)
+        {
+            if (Mathf.Abs(transform.position.x - enemyLocation.position.x) < 0.5f)
+            {
+                countScoreState = false;
+                score++;
+                Debug.Log("Score: "+score);
+            }
+        }
 
         marioAnimator.SetFloat("xSpeed", Mathf.Abs(marioBody.velocity.x));
     }

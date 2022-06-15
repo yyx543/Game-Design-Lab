@@ -40,6 +40,7 @@ public class PlayerController : MonoBehaviour
         marioAnimator = GetComponent<Animator>();
         marioAnimator.SetBool("onGround", onGroundState);
         marioAudio = GetComponent<AudioSource>();
+        GameManager.OnPlayerDeath  +=  PlayerDiesSequence;
     }
 
     // Update is called once per frame
@@ -146,5 +147,12 @@ public class PlayerController : MonoBehaviour
 
     void  PlayJumpSound() {
         marioAudio.PlayOneShot(marioAudio.clip);
+    }
+
+    void  PlayerDiesSequence(){
+	// Mario dies
+	    Debug.Log("Mario dies");
+	// do whatever you want here, animate etc
+	// ...
     }
 }

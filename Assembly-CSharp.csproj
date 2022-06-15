@@ -40,11 +40,16 @@
      <Compile Include="Assets/Scripts/BreakBrick.cs" />
      <Compile Include="Assets/Scripts/EnemyController.cs" />
      <Compile Include="Assets/Scripts/MenuController.cs" />
+     <Compile Include="Assets/Scripts/SpawnManager.cs" />
      <Compile Include="Assets/Scripts/CameraController.cs" />
      <Compile Include="Assets/Scripts/PlayerController.cs" />
+     <Compile Include="Assets/Scripts/ObjectPooler.cs" />
      <Compile Include="Assets/Scripts/MushroomController.cs" />
+     <Compile Include="Assets/Scripts/GameConstants.cs" />
      <Compile Include="Assets/Scripts/QuestionBoxController.cs" />
      <Compile Include="Assets/Scripts/Debris.cs" />
+     <Compile Include="Assets/Scripts/GameManager.cs" />
+     <Compile Include="Assets/Scripts/CentralManager.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />

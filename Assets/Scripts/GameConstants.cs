@@ -30,6 +30,9 @@ public  class GameConstants : ScriptableObject
     
     // for testing
     public  int testValue;
+    public int maxOffset;
+
+    public int groundSurface;
 }
 
 // public class GameConstants : MonoBehaviour

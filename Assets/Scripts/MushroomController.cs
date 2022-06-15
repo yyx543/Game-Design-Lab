@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MushroomController : MonoBehaviour
 {
@@ -33,10 +34,14 @@ public class MushroomController : MonoBehaviour
         
         if (col.gameObject.CompareTag("Player")) {
             speed = 0;
+            //set the mushroom to be invisible then can trigger onBecameInvisible
+            gameObject.SetActive(false);
+
         }
     }
 
     void OnBecameInvisible() {
+        Debug.Log("mushroom hit");
         Destroy(gameObject);
     }
 }

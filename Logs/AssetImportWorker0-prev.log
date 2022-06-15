@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49579
+49649
 Successfully changed project path to: /Users/rebby/Documents/GitHub/Game-Design-Lab
 /Users/rebby/Documents/GitHub/Game-Design-Lab
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/rebby/Documents/GitHub/Game-Design-
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 103.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,35 +69,35 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56775
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56847
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001092 seconds.
+Registered in 0.000970 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 103.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 104.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.435 seconds
+- Completed reload, in  0.461 seconds
 Domain Reload Profiling:
-	ReloadAssembly (435ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (461ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (319ms)
-			LoadAssemblies (48ms)
+		EndReloadAssembly (325ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (66ms)
+			SetupTypeCache (69ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (207ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (209ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
+				RefreshPlugins (105ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (75ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
@@ -107,38 +107,38 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006425 seconds.
+Registered in 0.001519 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/rebby/Documents/GitHub/Game-Design-Lab/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/rebby/Documents/GitHub/Game-Design-Lab/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 104.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 104.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.842 seconds
+- Completed reload, in  0.828 seconds
 Domain Reload Profiling:
-	ReloadAssembly (843ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (828ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (11ms)
-		EndReloadAssembly (722ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (714ms)
 			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (399ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (401ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (104ms)
 				BeforeProcessingInitializeOnLoad (84ms)
 				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
@@ -147,12 +147,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5534 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (0.8 MB). Loaded Objects now: 6006.
-Memory consumption went from 363.4 MB to 362.6 MB.
-Total: 3.048833 ms (FindLiveObjects: 0.205666 ms CreateObjectMapping: 0.063917 ms MarkObjects: 2.507958 ms  DeleteObjects: 0.270417 ms)
+Unloading 5536 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (0.8 MB). Loaded Objects now: 6008.
+Memory consumption went from 363.3 MB to 362.5 MB.
+Total: 2.985625 ms (FindLiveObjects: 0.188875 ms CreateObjectMapping: 0.063750 ms MarkObjects: 2.472250 ms  DeleteObjects: 0.260125 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,16 +166,76 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4058.716252 seconds.
-  path: Assets/GameAudio.mixer
-  artifactKey: Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAudio.mixer using Guid(b7cae8aac468c4d8ca583b74d52d7824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ad2dd849e19110e27427013a849786') in 0.053489 seconds 
+  Time since last request: 569.691287 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(4639038a7333d42af9827f4ae45e06f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(4639038a7333d42af9827f4ae45e06f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e213d345176a77402ba0817438ee42b') in 0.053515 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.091096 seconds.
+  Time since last request: 96.576860 seconds.
+  path: Assets/Scripts/CentralManager.cs
+  artifactKey: Guid(0117a719ff96146a7aa5c7236475a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CentralManager.cs using Guid(0117a719ff96146a7aa5c7236475a7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0513b14cfeef946bcf56dbf1f4c830') in 0.001428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.391343 seconds.
+  path: Assets/Scripts/EnemyController.cs
+  artifactKey: Guid(a4a17d56c67414647804a98d2faf0f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyController.cs using Guid(a4a17d56c67414647804a98d2faf0f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14945473b086605612ea992ab78ffde6') in 0.000689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.666890 seconds.
+  path: Assets/Shaders/mushroomGlow.mat
+  artifactKey: Guid(2165305b17d8a4473bcf51727e26dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/mushroomGlow.mat using Guid(2165305b17d8a4473bcf51727e26dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219941a5d15d4f19c5b1b63022263b67') in 0.619698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.801239 seconds.
+  path: Assets/Rendering/UniversalRenderer.asset
+  artifactKey: Guid(e8867cc955206d647acfb9e85a40b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/UniversalRenderer.asset using Guid(e8867cc955206d647acfb9e85a40b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e196e2ea8102ac7914119fb495ed6a80') in 0.028619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.572380 seconds.
   path: Assets/Prefabs/BreakableBrick.prefab
   artifactKey: Guid(79adbe3a694dd224396af54620c57ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BreakableBrick.prefab using Guid(79adbe3a694dd224396af54620c57ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff219ab12b266e7020a559cf136bb05b') in 0.174072 seconds 
+Start importing Assets/Prefabs/BreakableBrick.prefab using Guid(79adbe3a694dd224396af54620c57ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597420462ed0eef18c285389bdd10c3e') in 0.037186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/HittableSimple.prefab
+  artifactKey: Guid(725803ee26d96f34f8049415e7edaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HittableSimple.prefab using Guid(725803ee26d96f34f8049415e7edaad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08182a5b5d618ee0810597320317d922') in 0.006764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Prefabs/Debris.prefab
+  artifactKey: Guid(8d2235098fca82a4fb45a5594d0008a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Debris.prefab using Guid(8d2235098fca82a4fb45a5594d0008a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080e9bd5e59d9278b057e284d96fcc9a') in 0.006433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prefabs/EnemyGreen.prefab
+  artifactKey: Guid(7224682fc198c40459c16ea83503cae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyGreen.prefab using Guid(7224682fc198c40459c16ea83503cae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4ef48a08b6d291d4a1f3ffed008fba') in 0.015297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Prefabs/EnemyGomba.prefab
+  artifactKey: Guid(4a0802ea25df59342bbc2b9d0504b8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyGomba.prefab using Guid(4a0802ea25df59342bbc2b9d0504b8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4670dc9e14c0247ee28d8be38d19a6') in 0.005787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs/ConsumableMushroomSimple.prefab
+  artifactKey: Guid(e646cedb53891d5418bd0feb1c06f6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ConsumableMushroomSimple.prefab using Guid(e646cedb53891d5418bd0feb1c06f6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d3d9bd887489c1a87b7cb63b89a4aa') in 0.005524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/ParallaxBG.prefab
+  artifactKey: Guid(40f38ad23e42c5f46afb9d589906cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ParallaxBG.prefab using Guid(40f38ad23e42c5f46afb9d589906cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae844027643729706f08a26be664a1b0') in 0.033617 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

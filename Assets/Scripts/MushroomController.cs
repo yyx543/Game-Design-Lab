@@ -35,13 +35,29 @@ public class MushroomController : MonoBehaviour
         if (col.gameObject.CompareTag("Player")) {
             speed = 0;
             //set the mushroom to be invisible then can trigger onBecameInvisible
-            gameObject.SetActive(false);
+            StartCoroutine(consumeSequence());
 
         }
     }
 
-    void OnBecameInvisible() {
-        Debug.Log("mushroom hit");
-        Destroy(gameObject);
-    }
+    IEnumerator consumeSequence(){
+		Debug.Log("consume starts");
+
+		float scaleUp = 0.8f;
+        float scaleDown = -0.5f;
+
+        this.transform.localScale = new Vector3(this.transform.localScale.x + scaleUp, this.transform.localScale.y + scaleUp, this.transform.localScale.z);
+        this.transform.localScale = new Vector3(this.transform.localScale.x + scaleDown, this.transform.localScale.y + scaleDown, this.transform.localScale.z);
+        yield return null;
+        this.transform.localScale = new Vector3(0, 0, 0);
+        
+		Debug.Log("consume ends");
+
+		yield  break;
+	}
+
+    // void OnBecameInvisible() {
+    //     Debug.Log("mushroom hit");
+    //     Destroy(gameObject);
+    // }
 }

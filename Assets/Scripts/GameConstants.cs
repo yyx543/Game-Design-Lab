@@ -31,8 +31,9 @@ public  class GameConstants : ScriptableObject
     // for testing
     public  int testValue;
     public int maxOffset;
+    public float enemyPatroltime;
 
-    public int groundSurface;
+    public float groundSurface;
 }
 
 // public class GameConstants : MonoBehaviour

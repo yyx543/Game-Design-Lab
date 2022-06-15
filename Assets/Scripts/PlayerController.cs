@@ -27,7 +27,6 @@ public class PlayerController : MonoBehaviour
 
     private Animator marioAnimator;
     private AudioSource marioAudio;
-    public AudioSource coinAudio;
     public AudioSource pipeAudio;
 
     // Start is called before the first frame update
@@ -63,6 +62,13 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown("z")){
+            CentralManager.centralManagerInstance.consumePowerup(KeyCode.Z,this.gameObject);
+        }
+
+        if (Input.GetKeyDown("x")){
+            CentralManager.centralManagerInstance.consumePowerup(KeyCode.X,this.gameObject);
+        }
         
         if (!onGroundState && countScoreState)
         {
@@ -117,7 +123,7 @@ public class PlayerController : MonoBehaviour
             marioAnimator.SetBool("onGround", onGroundState);
             dustCloud.Play();
             // countScoreState = false; // reset score state
-            scoreText.text = "Score: " + score.ToString();
+            // scoreText.text = "Score: " + score.ToString();
         }
         //if mario hits pipe
         if (col.gameObject.CompareTag("Pipe")) 
@@ -130,19 +136,11 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log("Collided with Gomba!");
+            Debug.Log("Collided with Enemy!");
             marioBody.velocity = Vector2.zero;
-            SceneManager.LoadScene("SampleScene");
+            // SceneManager.LoadScene("SampleScene");
         }
         
-
-        if (other.gameObject.CompareTag("Coin"))
-        {
-            Debug.Log("Hit Coin");
-            coinAudio.Play();
-            coin.GetComponent<SpriteRenderer>().enabled  =  false;
-            coin.GetComponent<BoxCollider2D>().enabled  =  false;
-        }
     }
 
     void  PlayJumpSound() {
@@ -152,7 +150,18 @@ public class PlayerController : MonoBehaviour
     void  PlayerDiesSequence(){
 	// Mario dies
 	    Debug.Log("Mario dies");
-	// do whatever you want here, animate etc
-	// ...
+        StartCoroutine(dieAnimation());
+        this.gameObject.transform.GetComponent<BoxCollider2D>().enabled = false;
     }
+
+    IEnumerator dieAnimation(){
+		for (int i =  0; i  < 2; i  ++){
+
+			this.transform.position  =  new  Vector3(this.transform.position.x, this.transform.position.y + 1.5f, this.transform.position.z);
+			yield  return  null;
+		}
+		Debug.Log("Enemy returned to pool");
+        
+		yield  break;
+	}
 }

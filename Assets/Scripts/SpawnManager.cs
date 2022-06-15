@@ -9,11 +9,9 @@ public class SpawnManager : MonoBehaviour
     float groundDistance = -1.0f;
     void Start()
     {
-        for (int j = 0; j < 5; j++)
+        for (int j = 0; j < 3; j++)
             spawnFromPooler(ObjectType.greenEnemy);
             spawnFromPooler(ObjectType.gombaEnemy);
-        
-
     }
 
 

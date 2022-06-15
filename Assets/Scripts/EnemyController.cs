@@ -5,8 +5,6 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     private float originalX;
-    private float maxOffset = 5.0f;
-    private float enemyPatroltime = 2.0f;
     private int moveRight = 1;
     private Vector2 velocity;
 
@@ -23,12 +21,16 @@ public class EnemyController : MonoBehaviour
         enemySprite = GetComponent<SpriteRenderer>();
         // get the starting position
         originalX = transform.position.x;
+
+		moveRight = Random.Range(0, 2) == 0 ? -1 : 1;
+		enemySprite.flipX = !(moveRight==1);
+
         ComputeVelocity();
         GameManager.OnPlayerDeath  +=  EnemyRejoice;
     }
 
     void ComputeVelocity() {
-        velocity = new Vector2((moveRight)*maxOffset / enemyPatroltime, 0);
+        velocity = new Vector2((moveRight)*gameConstants.maxOffset / gameConstants.enemyPatroltime, 0);
     }
 
     void MoveGomba() {
@@ -38,14 +40,12 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Mathf.Abs(enemyBody.position.x  -  originalX) <  gameConstants.maxOffset)
-		{// move goomba
+        if (Mathf.Abs(enemyBody.position.x  -  originalX) <  gameConstants.maxOffset) {
 			MoveGomba();
-		}
-		else
-		{
+		} else {
 			// change direction
 			moveRight  *=  -1;
+			enemySprite.flipX = !enemySprite.flipX;
 			ComputeVelocity();
 			MoveGomba();
 		}
@@ -53,16 +53,21 @@ public class EnemyController : MonoBehaviour
 
 	void  OnTriggerEnter2D(Collider2D other){
 		// check if it collides with Mario
-		if (other.gameObject.tag  ==  "Player"){
+		if (other.gameObject.tag == "Player") {
 			// check if collides on top
 			float yoffset = (other.transform.position.y  -  this.transform.position.y);
 			if (yoffset  >  0.75f){
 				KillSelf();
-			}
-			else{
+			} else {
 				// hurt player, implement later
+				Debug.Log("Kill player");
                 CentralManager.centralManagerInstance.damagePlayer();
 			}
+		}
+		if (other.gameObject.tag == "Pipe" || other.gameObject.tag == "Obstacles") {
+			moveRight *= -1;
+			enemySprite.flipX = !enemySprite.flipX;
+			ComputeVelocity();
 		}
 	}
 
@@ -94,7 +99,15 @@ public class EnemyController : MonoBehaviour
         // animation when player is dead
     void  EnemyRejoice(){
         Debug.Log("Enemy killed Mario");
-        // do whatever you want here, animate etc
-        // ...
+        moveRight = 0;
+		ComputeVelocity();
+		InvokeRepeating("FlipXpos", 0, 0.2f);
+	}
+	void FlipXpos() {
+        if (enemySprite.flipX) {
+            enemySprite.flipX = false;
+        } else {
+            enemySprite.flipX = true;
+        }
     }
 }

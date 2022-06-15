@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     public Transform endLimit; // GameObject that indicates end of map
     public Text scoreText;
     public ParticleSystem dustCloud;
-    public Transform coinLocation;
+    public GameObject coin;
 
     private Rigidbody2D marioBody;
     private SpriteRenderer marioSprite;
@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     private Animator marioAnimator;
     private AudioSource marioAudio;
     public AudioSource coinAudio;
+    public AudioSource pipeAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -117,11 +118,10 @@ public class PlayerController : MonoBehaviour
             // countScoreState = false; // reset score state
             scoreText.text = "Score: " + score.ToString();
         }
-        //if mario hits coin, it disappears
-        if (col.gameObject.CompareTag("Coin")) 
+        //if mario hits pipe
+        if (col.gameObject.CompareTag("Pipe")) 
         {
-            coinAudio.Play();
-            Destroy(coinLocation);
+            pipeAudio.Play();
         }
     }
 
@@ -133,11 +133,14 @@ public class PlayerController : MonoBehaviour
             marioBody.velocity = Vector2.zero;
             SceneManager.LoadScene("SampleScene");
         }
+        
 
         if (other.gameObject.CompareTag("Coin"))
         {
             Debug.Log("Hit Coin");
-
+            coinAudio.Play();
+            coin.GetComponent<SpriteRenderer>().enabled  =  false;
+            coin.GetComponent<BoxCollider2D>().enabled  =  false;
         }
     }
 

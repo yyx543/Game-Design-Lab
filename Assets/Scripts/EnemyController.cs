@@ -7,15 +7,19 @@ public class EnemyController : MonoBehaviour
     private float originalX;
     private float maxOffset = 5.0f;
     private float enemyPatroltime = 2.0f;
-    private int moveRight = -1;
+    private int moveRight = 1;
     private Vector2 velocity;
 
     private Rigidbody2D enemyBody;
+    private SpriteRenderer enemySprite;
+
+    private bool faceRightState = true;
 
     // Start is called before the first frame update
     void Start()
     {
         enemyBody = GetComponent<Rigidbody2D>();
+        enemySprite = GetComponent<SpriteRenderer>();
         // get the starting position
         originalX = transform.position.x;
         ComputeVelocity();
@@ -40,6 +44,8 @@ public class EnemyController : MonoBehaviour
         else {
             // change direction
             moveRight *= -1;
+            faceRightState = !faceRightState;
+            enemySprite.flipX = !enemySprite.flipX;
             ComputeVelocity();
             MoveGomba();
         }

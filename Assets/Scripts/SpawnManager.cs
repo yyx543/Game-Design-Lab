@@ -11,6 +11,8 @@ public class SpawnManager : MonoBehaviour
     {
         for (int j = 0; j < 5; j++)
             spawnFromPooler(ObjectType.greenEnemy);
+            spawnFromPooler(ObjectType.gombaEnemy);
+        
 
     }
 

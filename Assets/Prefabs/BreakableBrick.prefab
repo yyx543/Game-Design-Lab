@@ -68,6 +68,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 7838983418640635923, guid: 8d2235098fca82a4fb45a5594d0008a9, type: 3}
+  breakAudio: {fileID: 8038390866421725555}
 --- !u!1 &1026542181404369097
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,7 +166,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -188,11 +189,11 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026542181404369097}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 9057344382251516125, guid: b7cae8aac468c4d8ca583b74d52d7824, type: 2}
   m_audioClip: {fileID: 8300000, guid: 490f1cae6c7ad487db9edf3915018d85, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

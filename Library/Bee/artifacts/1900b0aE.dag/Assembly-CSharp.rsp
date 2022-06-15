@@ -386,6 +386,7 @@
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/Debris.cs"
 "Assets/Scripts/EnemyController.cs"
+"Assets/Scripts/GameConstants.cs"
 "Assets/Scripts/MenuController.cs"
 "Assets/Scripts/MushroomController.cs"
 "Assets/Scripts/ObjectPooler.cs"

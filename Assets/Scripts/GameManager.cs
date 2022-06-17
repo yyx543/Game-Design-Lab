@@ -11,6 +11,31 @@ public  class GameManager : MonoBehaviour
     public GameObject enemySpawnManager;
     private SpawnManager spawnManager;
 
+        
+    // Singleton Pattern
+    private  static  GameManager _instance;
+    // Getter
+    public  static  GameManager Instance
+    {
+        get { return  _instance; }
+    }
+
+    private  int _healthPoints; 
+
+    //healthPoints is a basic property  
+    public  int healthPoints { 
+        get { 
+            //Some other code  
+            // ...
+            return _healthPoints; 
+        } 
+        set { 
+            // Some other code, check etc
+            // ...
+            _healthPoints = value; // value is the amount passed by the setter
+        } 
+    }
+
     void Start() {
         spawnManager = enemySpawnManager.GetComponent<SpawnManager>();
     }

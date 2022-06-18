@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public  class GameManager : MonoBehaviour
+public  class GameManager : Singleton<GameManager>
+
 {
-	public  Text score;
+	public Text score;
+    public Image Panel;
+    public Button Button;
 
     
     public GameObject enemySpawnManager;
@@ -20,21 +23,12 @@ public  class GameManager : MonoBehaviour
         get { return  _instance; }
     }
 
-    private  int _healthPoints; 
+    override  public  void  Awake(){
+		base.Awake();
+		Debug.Log("awake called");
+		// other instructions...
+	}
 
-    //healthPoints is a basic property  
-    public  int healthPoints { 
-        get { 
-            //Some other code  
-            // ...
-            return _healthPoints; 
-        } 
-        set { 
-            // Some other code, check etc
-            // ...
-            _healthPoints = value; // value is the amount passed by the setter
-        } 
-    }
 
     void Start() {
         spawnManager = enemySpawnManager.GetComponent<SpawnManager>();

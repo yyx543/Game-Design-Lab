@@ -10,6 +10,7 @@ TagManager:
   - Pipe
   - Platform
   - Coin
+  - Castle
   layers:
   - Default
   - TransparentFX

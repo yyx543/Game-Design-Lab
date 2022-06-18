@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ed78056f903e784fbdd887c5bd528b8, type: 3}
   m_Name: GameConstants
   m_EditorClassIdentifier: 
-  spawnNumberOfDebris: 5
   testValue: 0
   maxOffset: 5
   enemyPatroltime: 2
   groundSurface: -5
+  playerMaxSpeed: 5
+  playerMaxJumpSpeed: 15
+  playerDefaultForce: 150
+  groundDistance: -3

@@ -123,7 +123,7 @@ public class EnemyControllerEV : MonoBehaviour
     	// callbacks must be PUBLIC
     public void PlayerDeathResponse()
     {
-        GetComponent<Animator>().SetBool("playerIsDead", true);
+        // GetComponent<Animator>().SetBool("playerIsDead", true);
         velocity = Vector3.zero;
     }
 }

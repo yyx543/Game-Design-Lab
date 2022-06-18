@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 58fec194e44fa7f43876576a2ac5b0f0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - marioUpSpeed: {fileID: 11400000, guid: 77b71319a3216f445b69d258d1c54ac7, type: 2}
+  - marioMaxSpeed: {fileID: 11400000, guid: 77b71319a3216f445b69d258d1c54ac7, type: 2}
+  - gameConstants: {fileID: 11400000, guid: 9d9766f6f9e352d4cad70d5577b1a61b, type: 2}
+  - marioJumpAudioClip: {fileID: 8300000, guid: 7c29c0ec8b929454f999dbe9a45a7cab, type: 3}
+  - marioDieAudioClip: {fileID: 8300000, guid: 25ac371a7acb84aef8a675a3d9db1c99, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -27,23 +27,17 @@ public  class GameConstants : ScriptableObject
     
     // for testing
     public  int testValue;
-    public int maxOffset;
-    public float enemyPatroltime;
 
-    public float groundSurface;
+    //Enemny controller
+    public int maxOffset = 5;
+    public float enemyPatroltime = 2.0f;
+
+    public float groundSurface = -3.8f;
+
+    // Mario basic starting values
+    public int playerMaxSpeed = 5;
+    public int playerMaxJumpSpeed = 5;
+    public int playerDefaultForce = 15;
+
+    public float groundDistance = -3.0f;
 }
-
-// public class GameConstants : MonoBehaviour
-// {
-//     // Start is called before the first frame update
-//     void Start()
-//     {
-        
-//     }
-
-//     // Update is called once per frame
-//     void Update()
-//     {
-        
-//     }
-// }

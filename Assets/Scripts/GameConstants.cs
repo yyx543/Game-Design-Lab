@@ -36,8 +36,8 @@ public  class GameConstants : ScriptableObject
 
     // Mario basic starting values
     public int playerMaxSpeed = 5;
-    public int playerMaxJumpSpeed = 5;
-    public int playerDefaultForce = 15;
+    public int playerMaxJumpSpeed = 30;
+    public int playerDefaultForce = 150;
 
-    public float groundDistance = -3.0f;
+    public float groundDistance = -3.8f;
 }

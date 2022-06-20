@@ -38,7 +38,7 @@ public class SpawnManagerEV : MonoBehaviour
 
     public void spawnNewEnemy()
     {
-        ObjectType i = Random.Range(0, 2) == 0 ? ObjectType.gombaEnemy : ObjectType.greenEnemy;
+        ObjectType i = ObjectType.gombaEnemy;
         spawnFromPooler(i);
     }
 

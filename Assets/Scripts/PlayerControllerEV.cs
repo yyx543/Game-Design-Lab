@@ -130,6 +130,7 @@ public class PlayerControllerEV : MonoBehaviour
 
     public void PlayerDiesSequence()
     {
+        Debug.Log("mario died");
         isDead = true;
         marioAnimator.SetBool("isDead", true);
         GetComponent<Collider2D>().enabled = false;

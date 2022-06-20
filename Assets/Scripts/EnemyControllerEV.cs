@@ -69,9 +69,10 @@ public class EnemyControllerEV : MonoBehaviour
             // check if collides on top
             float yoffset = (other.transform.position.y - this.transform.position.y);
             if (yoffset > 0.75f)
-            {
-                KillSelf();
+            {   
                 onEnemyDeath.Invoke();
+                KillSelf();
+                
             }
             else
             {
@@ -96,7 +97,7 @@ public class EnemyControllerEV : MonoBehaviour
 			this.transform.localScale  =  new  Vector3(this.transform.localScale.x, this.transform.localScale.y  -  stepper, this.transform.localScale.z);
 
 			// make sure enemy is still above ground
-			this.transform.position  =  new  Vector3(this.transform.position.x, gameConstants.groundSurface  +  GetComponent<SpriteRenderer>().bounds.extents.y, this.transform.position.z);
+			this.transform.position  =  new  Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
 			yield  return  null;
 		}
 		Debug.Log("Flatten ends");
@@ -112,6 +113,7 @@ public class EnemyControllerEV : MonoBehaviour
 		ComputeVelocity();
 		InvokeRepeating("FlipXpos", 0, 0.2f);
 	}
+
 	void FlipXpos() {
         if (enemySprite.flipX) {
             enemySprite.flipX = false;

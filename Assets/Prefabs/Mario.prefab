@@ -128,7 +128,7 @@ MonoBehaviour:
   maxSpeed: 8
   upSpeed: 40
   enemyLocation: {fileID: 0}
-  startLimit: {fileID: 0}
+  startLimit: {fileID: 8564889309257638944}
   endLimit: {fileID: 0}
   scoreText: {fileID: 0}
   dustCloud: {fileID: 8564889309540171104}

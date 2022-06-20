@@ -384,6 +384,7 @@
 "Assets/Scripts/BreakBrick.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CentralManager.cs"
+"Assets/Scripts/ChangeSceneEV.cs"
 "Assets/Scripts/CoinController.cs"
 "Assets/Scripts/ConsumableInterface.cs"
 "Assets/Scripts/Debris.cs"

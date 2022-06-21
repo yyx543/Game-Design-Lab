@@ -26,10 +26,6 @@ public class PlayerControllerEV : MonoBehaviour
     public AudioClip marioDieAudioClip;
 
     private GameObject cameraManager;
-
-    public Transform startLimit; //GameObject that indicates start of map
-    public Transform endLimit; // GameObject that indicates end of map
-
      // Start is called before the first frame update
     void Start()
     {
@@ -101,12 +97,6 @@ public class PlayerControllerEV : MonoBehaviour
             onGroundState = false;
             marioAnimator.SetBool("onGround", onGroundState);
             PlayJumpSound();
-        }
-
-        if (marioBody.position.x <= startLimit.transform.position.x) {
-            marioBody.position = new Vector2(startLimit.transform.position.x, marioBody.position.y);
-        } else if (marioBody.position.x >= endLimit.transform.position.x) {
-            marioBody.position = new Vector2(endLimit.transform.position.x, marioBody.position.y);
         }
     }
 

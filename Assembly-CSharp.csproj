@@ -40,7 +40,9 @@
      <Compile Include="Assets/Scripts/ConsumableInterface.cs" />
      <Compile Include="Assets/Scripts/IntVariable.cs" />
      <Compile Include="Assets/Scripts/EnemyControllerEV.cs" />
+     <Compile Include="Assets/Scripts/ChangeSceneEV.cs" />
      <Compile Include="Assets/Scripts/CoinController.cs" />
+     <Compile Include="Assets/Scripts/GameManagerEV.cs" />
      <Compile Include="Assets/Scripts/BreakBrick.cs" />
      <Compile Include="Assets/Scripts/EnemyController.cs" />
      <Compile Include="Assets/Scripts/CentralManager.cs" />
@@ -49,6 +51,7 @@
      <Compile Include="Assets/Scripts/SpawnManager.cs" />
      <Compile Include="Assets/Scripts/GameEventListener.cs" />
      <Compile Include="Assets/Scripts/CameraController.cs" />
+     <Compile Include="Assets/Scripts/ScoreMonitor.cs" />
      <Compile Include="Assets/Scripts/PlayerController.cs" />
      <Compile Include="Assets/Scripts/PowerUpManager.cs" />
      <Compile Include="Assets/Scripts/ObjectPooler.cs" />
@@ -61,9 +64,13 @@
      <Compile Include="Assets/Scripts/Debris.cs" />
      <Compile Include="Assets/Scripts/GameEvent.cs" />
      <Compile Include="Assets/Scripts/OrangeMushroom.cs" />
-     <Compile Include="Assets/Scripts/ScoreMonitor.cs" />
-     <Compile Include="Assets/Scripts/GameManagerEV.cs" />
-     <Compile Include="Assets/Scripts/ChangeSceneEV.cs" />
+     <Compile Include="Assets/Scripts/Inventory.cs" />
+     <Compile Include="Assets/Scripts/PowerUp.cs" />
+     <Compile Include="Assets/Scripts/PowerupManagerEV.cs" />
+     <Compile Include="Assets/Scripts/PowerupInventory.cs" />
+     <Compile Include="Assets/Scripts/PowerupEventListener.cs" />
+     <Compile Include="Assets/Scripts/PowerupEvent.cs" />
+     <Compile Include="Assets/Scripts/ConsumableTriggerChecker.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />

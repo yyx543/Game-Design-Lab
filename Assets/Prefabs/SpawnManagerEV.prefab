@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7812312845704400304}
   - component: {fileID: 7812312845704400305}
   - component: {fileID: 7812312845704400334}
+  - component: {fileID: 6919514631155952051}
   m_Layer: 0
   m_Name: SpawnManagerEV
   m_TagString: Untagged
@@ -74,3 +75,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameConstants: {fileID: 11400000, guid: 9d9766f6f9e352d4cad70d5577b1a61b, type: 2}
+--- !u!114 &6919514631155952051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7812312845704400335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3afc041db8bc91a49af9fd7b40662f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 217320334d409ce40b3f5474728ebe42, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 455675877940641637, guid: 35dac4a9ae19a4c5f9b60656d88de9cd, type: 3}
+        m_TargetAssemblyTypeName: PowerupManagerEV, Assembly-CSharp
+        m_MethodName: resetPowerup
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
